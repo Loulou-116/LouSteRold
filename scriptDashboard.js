@@ -7,7 +7,7 @@ const ADMIN_PASS = "admin1234";
   const p = prompt("Mot de passe:");
   if (u !== ADMIN_USER || p !== ADMIN_PASS) {
     alert("Accès refusé !");
-    location.href = "login-1.html";
+    location.href = "index.html";
   } else {
     localStorage.setItem("adminLogged", "Yes");
   }
